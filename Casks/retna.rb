@@ -4,21 +4,21 @@ cask "retna" do
 
   on_macos do
     on_arm do
-      sha256 "8a4d428611a224628b555a7f6bdb51c9caf58d4571ef284ea6896decd9e31c55"
+      sha256 "5fe61fcd134dae7d80d4e07d8fd750311ffeade6e9771aa82088caaed6a568ed"
       url "https://github.com/d3uceY/Retna/releases/download/v#{version}/retna_Darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "472349ee4c56cbf4eef82ec02cb6235c12d4e444b4c34d04b532b8cf293695c4"
+      sha256 "80b1f05aad6aec578690bda2e442340bcb1061a2b0e57feaec7b9997234a99f2"
       url "https://github.com/d3uceY/Retna/releases/download/v#{version}/retna_Darwin_x86_64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "b4e801e536af1865fa01537b5a774c3e3438293112c2c6d58e04a3aca59612cf"
+      sha256 "8b3341ea789c8a0284d581bf1f00320ba7fe2a6e69959a5c7fdb169185f1c8a9"
       url "https://github.com/d3uceY/Retna/releases/download/v#{version}/retna_Linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "76121cb5c4101c653573eff64522fb8cac33c9ab0e47cc741bd95905f10adb98"
+      sha256 "b0c83500b04f80aaf59bbd3abbb783924359f53c8c94dcc39f1163762379a29c"
       url "https://github.com/d3uceY/Retna/releases/download/v#{version}/retna_Linux_x86_64.tar.gz"
     end
   end
